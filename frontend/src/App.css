@@ -1,0 +1,154 @@
+body {
+  background: #f6f9f6;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.App {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+h1 {
+  color: #2e7d32;
+  font-size: 2rem;
+  margin-bottom: 24px;
+}
+
+.upload-section {
+  margin-bottom: 1rem;
+}
+.upload-section button {
+  background: #43a047;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  margin: 0 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.2s;
+}
+.upload-section button:hover {
+  background: #388e3c;
+}
+
+.camera-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.camera-section video {
+  border-radius: 8px;
+  margin-bottom: 8px;
+  border: 1px solid #c8e6c9;
+}
+
+.preview-section {
+  margin: 16px 0;
+  text-align: center;
+}
+.preview-section img {
+  border-radius: 8px;
+  border: 1px solid #c8e6c9;
+}
+.preview-img {
+  max-width: 200px;
+  margin: 1rem 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+.eco-score-box {
+  background: #e0ffe0;
+  border: 2px solid #4caf50;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem 0;
+  text-align: center;
+}
+.item-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.item-card {
+  background: #f9f9f9;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 200px;
+}
+.item-name {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+.item-desc {
+  font-size: 0.95em;
+  margin-top: 0.5em;
+  color: #555;
+}
+.not-clothing {
+  color: #b71c1c;
+  font-size: 0.9em;
+  margin-top: 0.5em;
+}
+.offers-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.offer-card {
+  background: #e3f2fd;
+  border: 1px solid #2196f3;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 220px;
+  text-align: center;
+}
+.offer-name {
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+.redeem-btn {
+  margin-top: 0.5em;
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+.redeem-btn:disabled {
+  background: #bdbdbd;
+  cursor: not-allowed;
+}
+
+button[disabled] {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.results-section, .score-section, .offers-section {
+  margin-top: 24px;
+  background: #e8f5e9;
+  border-radius: 8px;
+  padding: 16px;
+}
+.results-section ul, .offers-section ul {
+  list-style: none;
+  padding: 0;
+}
+.results-section li, .offers-section li {
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+}
+.score-section h2, .score-section h3 {
+  margin: 0 0 8px 0;
+  color: #388e3c;
+}
+.error {
+  color: #b71c1c;
+  margin: 1em 0;
+}
